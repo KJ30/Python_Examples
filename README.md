@@ -2,7 +2,7 @@
 
 Overview
 
-This respository will showcase example Python codes that I have learnt and created from Online courses and from scratch. 
+This respository will showcase example Python codes that I have learnt and created from online courses and from scratch. 
 
 Tech Stack
 
