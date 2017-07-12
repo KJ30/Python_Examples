@@ -26,7 +26,7 @@ def print_header():
 def guess_random():
     guess = 0
     while guess != number:
-        user_input = input("Guess a number from 1 - 10:")
+        user_input = input("Guess a number from 1 - 100:")
         guess = int(user_input)
         if guess > number:
             print("Too high")
