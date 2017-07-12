@@ -31,7 +31,7 @@ def guess_random():
         if guess > number:
             print("Too high")
         elif guess < number:
-            print("To Low")
+            print("Too Low")
         else:
             print("Well Done , You win")
 
