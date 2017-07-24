@@ -25,16 +25,18 @@ def print_header():
 
 def guess_random():
     guess = 0
+    count = 1
     while guess != number:
         user_input = input("Guess a number from 1 - 100:")
         guess = int(user_input)
+        count = count + 1
         if guess > number:
-            print("Too high")
+            print("Too high, Aim Lower")
         elif guess < number:
-            print("Too Low")
+            print("Too Low, Aim Higher")
         else:
             print("Well Done , You win")
-
+    print("It took you {} attempts".format(count))
 
 if __name__ == '__main__':
     main()
